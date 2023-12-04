@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-day_df = pd.read_csv('https://github.com/garenkosburne/visualisasi_data/blob/main/day.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/garenkosburne/visualisasi_data/blob/main/day.csv')
 day_df.head()
 
 # Menghapus kolom yang tidak diperlukan
