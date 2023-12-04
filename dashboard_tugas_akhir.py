@@ -12,8 +12,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+from google.colab import drive
+drive.mount('/content/drive')
 
-day_df = pd.read_csv(validasi_data/day.csv)
+path_dataset_day_df = '/content/drive/MyDrive/Tugas Akhir Project Visualisasi Data by Phyton/day.csv'
+day_df = pd.read_csv(path_dataset_day_df)
 day_df.head()
 
 # Menghapus kolom yang tidak diperlukan
