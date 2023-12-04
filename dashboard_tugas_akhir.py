@@ -13,9 +13,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-# Set style seaborn
-sns.set(style='dark')
-
 day_df = pd.read_csv(day.csv)
 day_df.head()
 
