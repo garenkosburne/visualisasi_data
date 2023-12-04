@@ -13,15 +13,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 sns.set(style='dark')
-from google.colab import drive
-drive.mount('/content/drive')
 
 # Set style seaborn
 sns.set(style='dark')
 
-path_dataset_day_df = '/content/drive/MyDrive/Tugas Akhir Project Visualisasi Data by Phyton/day.csv'
-
-day_df = pd.read_csv(path_dataset_day_df)
+day_df = pd.read_csv(day.csv)
 day_df.head()
 
 # Menghapus kolom yang tidak diperlukan
