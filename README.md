@@ -35,5 +35,5 @@ pip install streamlit pandas numpy matplotlib seaborn
 ```
 ## Run steamlit app
 ```
-streamlit run dashboard_tugas_akhir.py
+streamlit run final_project_data_analytic.py
 ```
