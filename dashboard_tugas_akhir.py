@@ -8,7 +8,6 @@ Original file is located at
 
 # Install Streamlit di Google Colab
 """
-
 """# Menyiapkan DataFrame"""
 
 import pandas as pd
