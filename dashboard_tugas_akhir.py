@@ -9,8 +9,6 @@ Original file is located at
 # Install Streamlit di Google Colab
 """
 
-pip install streamlit babel
-
 """# Menyiapkan DataFrame"""
 
 import pandas as pd
