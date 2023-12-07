@@ -12,10 +12,11 @@ Projek ini berfokus pada analisis data penyewaan sepeda untuk mendapatkan wawasa
 
 ## Pertanyaan Bisnis
 
-1. Bagaimana variasi ketersediaan sepeda berdasarkan kondisi cuaca (weathersit) pada hari tertentu? Apakah cuaca yang baik memengaruhi peningkatan penyewaan?
-2. Bagaimana hubungan antara suhu (temp) dan jumlah penyewaan sepeda harian? Apakah terdapat tren atau pola tertentu?
-3. Apakah ada perbedaan antara distribusi penyewaan sepeda antara weekend dan weekdays?
-4. Bagaimana kontribusi pengguna casual dan registered terhadap total penyewaan sepeda?
+1. Apakah peran cuaca dapat memengaruhi peningkatan penyewaan?
+2. Bagaimana kondisi yang tampak ketika sepeda digunakan pada workingday, holiday, dan weekday?
+3. Bagaimana tren penggunaan sepeda dalam setahun? ditahun manakah tren yang lebih tinggi?
+4. Bagaimana variabel seperti temp dan atemp serta humidity dapat mempengaruhi jumlah total penyewa sepeda (baik Casual ataupun Registered)?
+5. Apakah ada pengaruh musim terhadap penyewa sepeda 
 
 ## Analisis Data
 
