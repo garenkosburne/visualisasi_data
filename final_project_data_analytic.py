@@ -47,11 +47,6 @@ print(hour_df.head())
 print(day_df.isnull().sum())
 print(hour_df.isnull().sum())
 
-# Menghapus 'instant' karena tidak memberikan informasi untuk pertanyaan
-
-day_df.drop('instant', axis=1, inplace=True)
-hour_df.drop('instant', axis=1, inplace=True)
-
 """## Exploratory Data Analysis (EDA)"""
 
 print(day_df.describe())
